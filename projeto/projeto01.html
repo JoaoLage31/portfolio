@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>João Lage</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/banner.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/projects.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/skills.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/timeline.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/slideshow.css"/>
+  
+    <link rel="stylesheet" type="text/css" href="../slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="../slick-1.8.1/slick/slick-theme.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="../jquery-3.2.1.min.js"></script>
+</head>
+<body>
+
+    <a id="button" class="goup" href="#"><img src="../img/svg/goUp.svg" alt=""></a>
+
+    <section class="project">
+        <div class="goback">
+            <a href="../index.html"><img src="../img/svg/Grupo 9.svg" alt=""></a>
+        </div>
+        <div class="projects_container">
+            <h1 data-aos="zoom-in" data-aos-duration="2600">CALOIRADA AOS MONSTES</h1>
+            <img data-aos="fade-up" data-aos-duration="2600" src="../img/img_slide.jpg" alt="">
+        </div>
+        
+    </section>
+    <section class="project_info">
+        <div class="slideshow_pop">
+            <p data-aos="zoom-in" data-aos-duration="2600" >Trabalhador, ambicioso e dedicado, sou ainda apaixonado pelo mundo da Web. Procuro com cada projeto desenvolver as minhas capacidades. Procuro com cada projeto desenvolver as minhas capacidades. </p>
+            <p  data-aos="zoom-in" data-aos-duration="2800">Trabalhador, ambicioso e dedicado, sou ainda apaixonado pelo mundo da Web. Procuro com cada projeto desenvolver as minhas capacidades. Procuro com cada projeto desenvolver as minhas capacidades. </p>
+            <p>Trabalhador, ambicioso e dedicado, sou ainda apaixonado pelo mundo da Web. Procuro com cada projeto desenvolver as minhas capacidades. Procuro com cada projeto desenvolver as minhas capacidades. </p>
+          </div>
+
+          <div class="project_img">
+              <img data-aos="zoom-in" data-aos-duration="2000" src="../img/img.jpg" alt="">
+              <img data-aos="zoom-in" data-aos-duration="2400" src="../img/img.jpg" alt="">
+              <img data-aos="zoom-in" data-aos-duration="2800" src="../img/img.jpg" alt="">
+          </div>
+          <div class="projects_container2">
+            <img data-aos="zoom-in" data-aos-duration="2600" src="../img/img_slide.jpg" alt="">
+        </div>
+        <a class="online" href="#">ver projeto online</a>
+    </section>
+    
+</body>
+<script>
+    var btn = $('#button');
+
+    btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+
+</script>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="../slick-1.8.1/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+$('.slideshow_pop').slick({
+       slidesToShow: 2,
+       slidesToScroll:1,
+       dots:true,
+       arrows:false,
+       draggable: false,
+       swipe: false,
+       swipeToSlide: false,
+       touchMove: false,
+       draggable: false,
+       accessibility: false,
+   }); 
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+       <script>
+        AOS.init();
+      </script>
+</html>

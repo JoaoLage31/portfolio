@@ -80,3 +80,63 @@
     margin-top: 20px;
     margin-bottom: 10px;
 }
+
+.showreel .iframe{
+    width: 60%;
+    height: 60%;
+    margin: auto;
+}
+
+.footer{
+    width: 100%;
+    height: 20vh;
+    background-color: #F9F9F9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.download:hover{
+    color: #323232;
+    cursor: pointer;
+}
+
+
+.download{
+    background-color: transparent;
+    font-family: raleway;
+    font-size: 20px;
+    color: #A7A7A7;
+    border: none;
+    transition: 0.3s;
+}
+
+button{
+    outline: none;
+}
+
+
+button:focus{
+    outline: none;
+}
+
+img:focus{
+    border: none;
+    outline: none;
+}
+
+.showmail{
+    display: none;
+    position: absolute;
+    transform: translate(-100%, -150%);
+    padding-right: 15px;
+    font-family: raleway;
+    font-size: 20px;
+    color: #A7A7A7;
+    
+}
+
+.showlink:hover .showmail{
+    display: block;
+    transition: 0.7s;
+}
